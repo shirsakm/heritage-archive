@@ -1,4 +1,4 @@
-# Heritage DB
+# Heritage Results Archive
 
 ![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg) ![Last Commit](https://img.shields.io/github/last-commit/shirsakm/heritage-db)
 
@@ -6,7 +6,7 @@ An unofficial, user-friendly interface for viewing semester results at the Herit
 
 ### **[✨ View the Live Demo ✨](https://shirsak.ftp.sh/)**
 
-<img width="1366" height="736" alt="Heritage DB Home Page" src="https://github.com/user-attachments/assets/bcbb5f4f-7c1f-40b7-85e8-c77c0973a0ad" />
+<img width="1366" height="736" alt="Heritage Results Archive Home Page" src="https://github.com/user-attachments/assets/bcbb5f4f-7c1f-40b7-85e8-c77c0973a0ad" />
 
 _The main page for selecting a batch._
 
@@ -16,7 +16,7 @@ _Clean, searchable, and filterable results for a selected batch._
 
 ## About The Project
 
-Heritage DB is a web application that scrapes, aggregates, and presents publicly available semester results for students of the Heritage Institute of Technology. The goal is to provide a fast, clean, and user-friendly interface to view and search through grade data without the clutter of the official portal.
+Heritage Results Archive is a web application that scrapes, aggregates, and presents publicly available semester results for students of the Heritage Institute of Technology. The goal is to provide a fast, clean, and user-friendly interface to view and search through grade data without the clutter of the official portal.
 
 Data is sourced using **Selenium** to handle the JavaScript-rendered official website and is stored locally in **CSV** files. The front-end is a lightweight **Flask** application that serves the data through a simple web UI and an internal API.
 

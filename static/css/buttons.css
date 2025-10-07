@@ -14,8 +14,9 @@
 
 .btn-primary-nord:hover,
 .btn-primary-nord:focus-visible {
-    transform: translate(2px, 2px);
-    box-shadow: var(--shadow-offset-sm);
+    transform: translate(4px, 4px);
+    box-shadow: none;
+    background: var(--nb-primary);
     border: var(--border-thickness) solid var(--nb-border-strong);
 }
 
@@ -45,8 +46,8 @@
 
 .btn-filter:hover,
 .btn-filter:focus-visible {
-    transform: translate(2px, 2px);
-    box-shadow: var(--shadow-offset-sm);
+    transform: translate(4px, 4px);
+    box-shadow: none;
     background: var(--nb-accent);
     border: var(--border-thickness) solid var(--nb-border-strong);
 }
@@ -77,8 +78,9 @@
 
 .btn-sort:hover,
 .btn-sort:focus-visible {
-    transform: translate(2px, 2px);
-    box-shadow: var(--shadow-offset-sm);
+    transform: translate(4px, 4px);
+    box-shadow: none;
+    background: var(--nb-surface-alt);
     border: var(--border-thickness) solid var(--nb-border-strong);
 }
 
