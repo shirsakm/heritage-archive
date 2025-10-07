@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Heritage Results Database - Batch {{ batch }}{% endblock %}
+{% block title %}Heritage Results Archive - Batch {{ batch }}{% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/table.css') }}">
@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    console.log('Heritage Results Database loaded');
+    console.log('Heritage Results Archive loaded');
     console.log('Found', document.querySelectorAll('button[type="submit"]').length, 'submit buttons');
     console.log('Found', document.querySelectorAll('form').length, 'forms');
 

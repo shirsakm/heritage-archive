@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Heritage Results Database{% endblock %}</title>
+    <title>{% block title %}Heritage Results Archive{% endblock %}</title>
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="{{ url_for('favicon_svg') }}">
@@ -49,7 +49,7 @@
                 </nav>
                 {% else %}
                 <a href="{{ url_for('index') }}" class="nav-title nav-title-mobile">
-                    Heritage Results Database
+                    Heritage Results Archive
                 </a>
                 {% endif %}
                 
