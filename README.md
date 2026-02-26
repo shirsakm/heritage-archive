@@ -4,8 +4,6 @@
 
 An unofficial, user-friendly interface for viewing semester results at the Heritage Institute of Technology.
 
-### **[✨ View the Live Demo ✨](https://shirsak.ftp.sh/)**
-
 <img width="1366" height="736" alt="Heritage Results Archive Home Page" src="https://github.com/user-attachments/assets/bcbb5f4f-7c1f-40b7-85e8-c77c0973a0ad" />
 
 _The main page for selecting a batch._
